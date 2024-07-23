@@ -29,3 +29,65 @@ body {
   font-size: 2rem;
   font-weight: 600;
 }
+
+
+
+/* To-Do  */
+
+.container-todo {
+  max-width: 900px;
+  max-height: 500px;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(239, 239, 239, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(239, 239, 239, 1);
+  box-shadow: 10px 10px 5px 0px rgba(239, 239, 239, 1);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 20px;
+}
+
+.list {
+  text-align: left;
+}
+
+.list ul {
+  padding-left: 0%;
+  list-style: none;
+}
+
+.list ul li {
+  padding: 5px;
+  background-color: blueviolet;
+  width: 100%;
+  margin: 2px;
+  position: relative;
+}
+
+.list ul li img {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
